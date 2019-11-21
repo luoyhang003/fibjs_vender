@@ -24,7 +24,7 @@ set(flags "${flags} -fsigned-char -fmessage-length=0 -fdata-sections -ffunction-
 if(NOT ccflags)
 	set(ccflags " ")
 endif()
-set(ccflags "${ccflags} -std=c++11")
+set(ccflags "${ccflags} -std=c++14")
 
 set(link_flags " ")
 

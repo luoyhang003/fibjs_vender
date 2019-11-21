@@ -189,7 +189,8 @@ mbedtls
 v8
 jssdk
 unzip
-editline"
+editline
+seal"
 
 if [ -z $GIT_BRANCH ]; then
 	GIT_BRANCH=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
